@@ -85,13 +85,13 @@ class _ThirukkuralMalayalamChapState extends State<ThirukkuralMalayalamChap> {
     // );
     final book1 = Container(
       child: Material(
-        // borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(18),
         child: Container(
           width: 7 * MediaQuery.of(context).size.width / 9,
-          height: 60,
+          height: 70,
           decoration: ShapeDecoration(
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(1),
+              borderRadius: BorderRadius.circular(18),
             ),
             gradient: LinearGradient(
               colors: <Color>[
@@ -125,13 +125,13 @@ class _ThirukkuralMalayalamChapState extends State<ThirukkuralMalayalamChap> {
     );
     final book2 = Container(
       child: Material(
-        // borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(18),
         child: Container(
           width: 7 * MediaQuery.of(context).size.width / 9,
-          height: 60,
+          height: 70,
           decoration: ShapeDecoration(
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(1),
+              borderRadius: BorderRadius.circular(18),
             ),
             gradient: LinearGradient(
               colors: <Color>[
@@ -144,7 +144,7 @@ class _ThirukkuralMalayalamChapState extends State<ThirukkuralMalayalamChap> {
             onPressed: () {},
             child: Container(
               child: Text(
-                "Porul- വിഷയം :Book of Polity (Artha)",
+                "Porul- വിഷയം : \n Book of Polity (Artha)",
                 textAlign: TextAlign.center,
                 style: GoogleFonts.roboto(
                     fontSize: 18,
@@ -158,13 +158,13 @@ class _ThirukkuralMalayalamChapState extends State<ThirukkuralMalayalamChap> {
     );
     final book3 = Container(
       child: Material(
-        // borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(18),
         child: Container(
           width: 7 * MediaQuery.of(context).size.width / 9,
-          height: 60,
+          height: 70,
           decoration: ShapeDecoration(
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(1),
+              borderRadius: BorderRadius.circular(18),
             ),
             gradient: LinearGradient(
               colors: <Color>[
@@ -177,7 +177,7 @@ class _ThirukkuralMalayalamChapState extends State<ThirukkuralMalayalamChap> {
             onPressed: () {},
             child: Container(
               child: Text(
-                "Inbam  - ആനന്ദം : Book of Love (Kama)",
+                "Inbam  - ആനന്ദം : \n Book of Love (Kama)",
                 textAlign: TextAlign.center,
                 style: GoogleFonts.roboto(
                     fontSize: 18,

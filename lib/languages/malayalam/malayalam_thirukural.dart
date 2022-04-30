@@ -152,9 +152,9 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
           centerTitle: true,
         ),
         body: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
+          // scrollDirection: Axis.vertical,
           child: Container(
-            height: MediaQuery.of(context).size.height* 2,
+            height: MediaQuery.of(context).size.height* 1.4,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -193,15 +193,42 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                 //     ],
                 //   ),
                 // ),
-                chapter1,
+                // chapter1,
+                GradientText(
+                  "ശക്തി - 1 \n  ദൈവം അനുഗ്രഹിക്കട്ടെ",
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.itim(
+                    fontWeight: FontWeight.w500,
+                    fontSize: 22,
+                  ),
+                  colors: const <Color>[
+                    Color(0xFFA6A5D7),
+                    Color(0xFF9B82E3),
+                  ],
+                ),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 15.0),
                   child: Row(
                     children: [
                       Text(
-                        "1. അക്ഷരമാലയിലെ ആദ്യ അക്ഷരം - \n ആദിയാണ് \n ദൈവമാണ് ആദ്യത്തെ ലോകം",
+                        "1. அகர முதல எழுத்தெல்லாம் ஆதி \n  பகவன் முதற்றே உலகு",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "അക്ഷരമാലയിലെ ആദ്യ  അക്ഷരം  ആദിയാണ് \n  ദൈവമാണ് ആദ്യത്തെ ലോകം",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -212,9 +239,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "2. പഠനത്തിന്റെ പ്രയോജനം - \n സംശയത്തിന്റെ നേട്ടമാണ് \n നറാൽ തൊഴഅർ എന്നിൻ",
+                        "2. கற்றதனால் ஆய பயனென்கொல் வாலறிவன் \n  நற்றாள் தொழாஅர் எனின்",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "പഠനത്തിന്റെ പ്രയോജനം സംശയത്തിന്റെ നേട്ടമാണ്\n  നറാൽ തൊഴഅർ എന്നിൻ",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -225,9 +267,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "3. മലർമിസൈ എക്കിനൻ മാനടി \n ചേർന്നു \n നിലമിസൈ നീടുജീവിത വാർ",
+                        "3. மலர்மிசை ஏகினான் மாணடி சேர்ந்தார் \n நிலமிசை நீடுவாழ் வார்",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "മലർമിസൈ എക്കിനൻ മാനടി ചേർന്നു \n  നിലമിസൈ നീടുജീവിത വാർ",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -238,9 +295,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "4. ചോദിക്കരുത്\nവാർഷിക ഹിപ് നമ്പർ",
+                        "4. வேண்டுதல் வேண்டாமை இலானடி சேர்ந்தார்க்கு \n  யாண்டும் இடும்பை இல",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "ചോദിക്കരുത്\n  വാർഷിക ഹിപ് നമ്പർ",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -251,9 +323,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "5.ഇരുട്ടിന്റെയും ദ്വൈതത്തിന്റെയും - \n നാഥൻ \n മെറ്റീരിയൽ ഗ്ലോറിഫൈഡ് പശു",
+                        "5.இருள்சேர் இருவினையும் சேரா இறைவன் \n  பொருள்சேர் புகழ்புரிந்தார் மாட்டு",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "ഇരുട്ടിന്റെയും ദ്വൈതത്തിന്റെയും നാഥൻ \n  മെറ്റീരിയൽ ഗ്ലോറിഫൈഡ് പശു",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -264,9 +351,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "6. കെണിയിലെ അഞ്ചാമത്തെ - \n നുണയാണ്  സദാചാരം \n നെറിനിന്നാർ നീടുജീവിത വാർ",
+                        "6.  பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க \n  நெறிநின்றார் நீடுவாழ் வார்",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "കെണിയിലെ അഞ്ചാമത്തെ നുണയാണ് സദാചാരം \n  നെറിനിന്നാർ നീടുജീവിത വാർ",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -277,9 +379,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "7. താൾച്ചേർന്നാർക്ക് കല്ലാൽ \n ഉത്കണ്ഠ മാറുന്നത് വിരളമാണ്",
+                        "7.தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க்\n  கல்லால்\n  மனக்கவலை மாற்றல் அரிது",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "താൾച്ചേർന്നാർക്ക് കല്ലാൽ \n  ഉത്കണ്ഠ മാറുന്നത് വിരളമാണ്",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -290,9 +407,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "8. അറവാഴി അന്തണൻ - \n താൾച്ചേർന്നാർക്ക്  കല്ലാൽ \n അന്യഗ്രഹ നീന്തൽ അപൂർവമാണ്",
+                        "8.அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால்\n  பிறவாழி நீந்தல் அரிது",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "അറവാഴി അന്തണൻ താൾച്ചേർന്നാർക്ക് കല്ലാൽ \n അന്യഗ്രഹ നീന്തൽ അപൂർവമാണ്",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -303,9 +435,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "9.  അവശ്യ എണ്ണകളുടെ രോഗശാന്തി - \n ഗുണങ്ങൾ പുരാതന കാലത്ത്  \n തല കുനിക്കാത്ത ഷീറ്റ്",
+                        "9.கோளில் பொறியில் குணமிலவே எண்குணத்தான்\n  தாளை வணங்காத் தலை",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "അവശ്യ എണ്ണകളുടെ രോഗശാന്തി ഗുണങ്ങൾ പുരാതന\n  കാലത്ത്  \n  തല കുനിക്കാത്ത ഷീറ്റ്",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -316,9 +463,24 @@ class _MalayalamThirukkuralState extends State<MalayalamThirukkural> {
                   child: Row(
                     children: [
                       Text(
-                        "10.നാട്ടിലെ സമുദ്ര നീന്തൽക്കാരൻ \n നീന്തി \nആദിസേര ധർ പ്രഭു",
+                        "10. பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்\n  இறைவன் அடிசேரா தார்",
                         style: GoogleFonts.roboto(
-                          fontSize: 18,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "നാട്ടിലെ സമുദ്ര നീന്തൽക്കാരൻ നീന്തി \n  ആദിസേര ധർ പ്രഭു",
+                        style: GoogleFonts.roboto(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],

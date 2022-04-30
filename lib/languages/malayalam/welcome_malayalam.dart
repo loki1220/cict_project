@@ -131,13 +131,13 @@ class _WelcomeMalayalamState extends State<WelcomeMalayalam> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 30),
+            Center(
               child: Stack(
+                alignment: Alignment.center,
                 children: [
                   Container(
                     height: MediaQuery.of(context).size.height * 0.30,
-                    width: 300,
+                    width: 7 * MediaQuery.of(context).size.width / 9,
                     child: Container(
                       decoration: BoxDecoration(
                         color: Color(0xFF2B326C),
@@ -145,33 +145,22 @@ class _WelcomeMalayalamState extends State<WelcomeMalayalam> {
                             Radius.circular(7)
                         ),
                       ),
+                      child: Center(
+                        child: Text(
+                          "Welcome to \n Central Institute of \n Classical Tamil",
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.roboto(
+                            color: Color(0xFFFFFFFF),
+                            fontWeight: FontWeight.w500,
+                            letterSpacing: 2,
+                            fontSize: 24,
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          SizedBox(
-                            height: 40,
-                          ),
-                          Text(
-                            "Welcome to \n Central Institute of \n Classical Tamil",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.roboto(
-                              color: Color(0xFFFFFFFF),
-                              fontWeight: FontWeight.w500,
-                              fontSize: 28,
-                            ),
-                          )
-                        ],
-                      ),
-                    ],
-                  )
                 ],
               ),
-
             ),
             GradientText(
               "തിരുക്കുറൾ",
